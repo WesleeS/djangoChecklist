@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="" method="post">{% csrf_token %}
+        
+
+        <p>Are you sure you want to delete this checklist item?</p>
+        <div class="post-entry">
+            <h2>"Task {{ post.id }}"</h2>
+            <p style="color: #eb6f92">> {{ post.task }}</p>
+        </div>
+        
+        <input type="submit" value="Confirm">
+    </form>
+{% endblock content %} 

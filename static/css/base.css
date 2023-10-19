@@ -1,0 +1,87 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    background-color: #faf4ed;
+}
+header {
+    border-bottom: .1em solid #ea9d34;
+    margin-bottom: 2rem;
+    display: flex;
+}
+header h1 a {
+    color: #ea9d34;
+    text-decoration: none;
+}
+
+
+.nav-left {
+    margin-right: auto;
+}
+.nav-right {
+    margin-left: auto;
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.post-entry {
+    background-color: #fffaf3;
+    padding-bottom: 1em;
+    width: 40em;
+    transition-duration: .2s;
+    border-top: .1em dashed #d7827e;
+    margin-bottom: 1em;
+}
+.post-entry p {
+    margin: 0;
+    font-size: 1em;
+    color: #575279;
+    transition-duration: .2s;
+}
+.post-entry h2 {
+    margin: 0.5em 0;
+    color: #b4637a;
+}
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: #b4637a;
+    text-decoration: none;
+}
+
+
+.postDetail .post-entry {
+    background-color: #fffaf3;
+    padding-bottom: 1.25em;
+    width: 50em;
+}
+.postDetail .post-entry p {
+    font-size: 1.25em;
+}
+
+
+.homePosts .post-entry:hover {
+    background-color: #f4ede8;
+    padding-bottom: 1.25em;
+    width: 50em;
+    transition-duration: .5s;
+}
+.homePosts .post-entry:hover p {
+    font-size: 1.25em;
+    transition-duration: .5s;
+
+}
+.homePosts .post-entry h2 a:hover {
+    color: #d7827e;
+}
+
+.taskPanel {
+    margin-left: auto;
+    margin-right: 5em;
+    padding: 2em;
+    background-color: #fffaf3;
+    border-top: .1em dashed #d7827e;
+    height: 20em;
+}
